@@ -43,7 +43,7 @@ install() {
     esac
     chmod 777 /root/miner_proxy/minerProxy
 
-    wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/scripts/run.sh -O /root/miner_proxy/run.sh
+    wget https://raw.githubusercontent.com/bangsate/minerProxy/master/scripts/run.sh -O /root/miner_proxy/run.sh
     chmod 777 /root/miner_proxy/run.sh
     echo "如果没有报错则安装成功"
     echo "正在启动..."
